@@ -1,0 +1,187 @@
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Muli')
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+//all
+*
+  margin: 0
+  padding: 0
+  font-family: "Muli", sans-serif
+  font-size: 11px
+p
+  color: #6b6b6b
+  line-height: 22px
+.text_muli
+  font-family: "Muli", sans-serif
+.text_montserrat
+  font-family: "Montserrat", sans-serif
+.hr_white
+  border: none
+  height: 1px
+  display: block
+  margin-top: 15px
+  margin-bottom: 15px
+  background-color: rgba(255,255,255,0.2)
+.wrapper
+  width: 1000px
+  margin: 0 auto
+  &:after
+    content: ""
+    display: block
+    clear: both
+.text_upper
+  text-transform: uppercase
+.text_white
+  color: white
+//footer
+.footer_top
+  width: 100%
+  background-color: #313131
+  display: block
+  padding-top: 100px
+  padding-bottom: 100px
+  &:before
+    content: ""
+    display: block
+    clear: both
+.footer_top_content
+  width: 25%
+  float: left
+  &:before
+    content: ""
+    display: block
+    clear: both
+  .footer_top_title
+    font-size: 14px
+    font-weight: 400
+    margin-bottom: 30px
+.footer_bottom
+  width: 100%
+  padding-top: 30px
+  padding-bottom: 30px
+  background-color: #292929
+  position: relative
+.contact-info
+  position: relative
+  *
+    display: inline-block
+    color: #6b6b6b
+  i
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+  span
+    margin-left: 20px
+.useful-links
+  li
+    list-style-type: none
+    margin-bottom: 20px
+    a
+      color: #6b6b6b
+      text-decoration: none
+      &:hover
+        color: white
+.__left
+  float: left
+.__right
+  float: right
+  margin-right: 50px
+.all_social_link
+  margin-top: 30px
+  ul
+    li
+      display: inline-block
+      margin-right: 10px
+      &:last-child
+        margin-right: 0
+      a
+        display: inline-block
+        width: 30px
+        height: 30px
+        text-align: center
+        background-color: #2e2e2e
+        position: relative
+        text-decoration: none
+        img
+          height: 13px
+          vertical-align: center
+        i
+          color: #6b6b6b
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+      &:hover .fab
+        color: white
+      &:hover a
+        background-color: #31AAE2
+
+//email form
+.email_form
+  margin-top: 10px
+  margin-bottom: 10px
+  position: relative
+  &:before
+    content: ""
+    display: block
+    position: absolute
+    top: 20px
+    right: 24px
+    width: 15px
+    height: 15px
+    z-index: 2
+    cursor: pointer
+    background-image: url('/assets/img/icons/icon_check_mark.png')
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+.email_form_text
+  padding-left: 10px
+  height: 30px
+  width: 70%
+.email_form_bottom
+  width: 40px
+  height: 34px
+  top: 12px
+  margin-left: 10px
+  background-color: #009688
+  border: none
+  display: inline-block
+  position: relative
+  cursor: pointer
+//news_block
+.news_block
+  position: relative
+  margin-bottom: 40px
+  &:after
+    content: ""
+    display: block
+    clear: both
+.news_block_img
+  float: left
+  width: 69px
+  margin-right: 10px
+  img
+    width: 100%
+.news_block_review
+  float: left
+  width: 60%
+  a
+    text-decoration: none
+    color: white
+    font-size: 11px
+.date
+  color: #6b6b6b
+  font-size: 10px
+//menu_footer
+.footer_bottom_text
+  float: left
+.menu_footer_nav
+  float: right
+.menu_footer_li
+  display: inline-block
+  margin: 0px 10px 0px 10px
+  a
+    text-decoration: none
+    color: #6b6b6b
+    &:hover
+      color: white
