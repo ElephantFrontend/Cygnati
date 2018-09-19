@@ -3,16 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { ClientBaseComponent } from './client-base/client-base.component';
+
+import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
+import {ClientBaseService} from './clientBase.service';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    ClientBaseComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ClientBaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
